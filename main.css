@@ -1,0 +1,141 @@
+.container {
+    width: 1170px;
+    margin: auto; /* เอาตัวเองอยู่ตรงกลาง */
+}
+header {
+    background-color: rgba(0,0,0,0.5);
+}
+header .img-logo {
+    width: 100px;
+    height: 50px;
+    background-color: #eee;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Circular, Helvetica, Arial, sans-serif
+}
+* {
+    box-sizing: border-box;
+}
+header .menu nav ul{
+    list-style:none;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+header .menu nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+}
+header .menu nav ul li a::hover{
+    color: peru;
+}
+header .container .logo{
+    width: 50%;
+    float:left;
+}
+header .container .menu{
+    width: 50%;
+    float:right;
+}
+
+.clearfix{ /* ใช้เมื่อทุกครั้งที่มี float */
+    clear: both;
+    float: none !important;
+}
+
+.banner{
+    background-color: #FF9999;
+    text-align: center;
+    line-height: 74px;
+    padding: 100px;
+    min-height:400px;
+}
+main .banner h1{
+    font-size: 70px;
+    margin: auto;
+}
+main a {
+    background-color: rgb(27, 170, 77);
+    padding: 15 30px;
+    border-radius: 50px;
+    color: #eee;
+    text-decoration: none;
+}
+main a:hover{
+    background-color: rgb(79, 135, 80);
+    text-decoration: none;
+
+}
+button{
+    width: 500px;
+    height: 60px;
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+}
+footer .img-logo {
+    width: 100px;
+    height: 50px;
+    background-color: #eee;
+    display: inline-block;
+}
+footer .company {
+    width: 20%;
+    display: inline-block;
+    margin-left: 45px
+}
+footer h4{
+    color: #eee;
+}
+footer .community {
+    width: 20%;
+    display: inline-block;
+}
+footer .useful-link {
+    width: 15%;
+    display: inline-block;
+}
+footer .social{
+    display: inline-block;
+    float: right;
+}
+footer .social  * {
+    width: 40px;
+    height: 40px;
+    background-color: plum;
+    list-style:none;
+    display: inline-block;
+    margin: 20px 15px 0 0 ;
+    border-radius: 50%;
+}
+footer .main-footer ul{
+    padding: 0;
+}
+footer .main-footer ul li a{
+    color: rgb(155, 247, 119);
+    text-decoration: none;
+}
+footer .copyright ul li{
+    display: inline-block;
+    list-style:none;
+}
+
+footer .copyright .col-70 {
+    width: 70%;
+    margin-top: 100px;
+    color: #eee;
+    display: inline-block;
+}
+footer .copyright .col-30 {
+    width: 29%;
+    margin-top: 100px;
+    color: #eee;
+    display: inline-block;
+    text-align: right;
+}
